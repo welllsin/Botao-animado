@@ -1,0 +1,43 @@
+body {
+}
+
+.botao {
+  border: 1px rgb(255, 0, 0) transparent solid;
+  height: 70px;
+  width: 222px;
+  border-radius: 10px;
+  box-shadow: 3px 4px black;
+  background-color: rgb(255, 0, 0);
+  cursor: pointer;
+}
+.botao:hover {
+  background-color: rgba(255, 0, 0, 0.842);
+  -webkit-animation-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.botao:active {
+  background-color: rgba(255, 0, 0, 0.842);
+  box-shadow: 0 6px #666;
+  transform: translateY(4px);
+}
+
+.botao2 {
+  border: 1px black solid transparent;
+  width: 222px;
+  height: 70px;
+  background-color: green;
+  cursor: pointer;
+  box-shadow: 3px 4px;
+  border-radius: 10px;
+}
+.botao2:hover {
+  -webkit-animation-duration: 0.3s;
+  transition-duration: 0.3s;
+  background-color: rgba(0, 128, 0, 0.959);
+}
+.botao2:active {
+  transform: translateY(4px);
+  box-shadow: 0 6px #666;
+  background-color: rgba(0, 128, 0, 0.959);
+}
